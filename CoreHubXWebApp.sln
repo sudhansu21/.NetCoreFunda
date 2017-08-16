@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreHubXWebApp", "CoreHubXWebApp\CoreHubXWebApp.csproj", "{5D7D35F0-AE84-41C2-9474-BFD2D94A8F34}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{14153494-E168-4B94-8673-A59015091A4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreWebAppBusiness", "CoreWebAppBusiness\CoreWebAppBusiness.csproj", "{44BEC446-650E-4BC0-A137-C63CCDCFF68F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreHubXWebType", "CoreHubXWebType\CoreHubXWebType.csproj", "{7670F3AC-ABBA-42EE-8B0C-EBFCD2C6FCFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D7D35F0-AE84-41C2-9474-BFD2D94A8F34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D7D35F0-AE84-41C2-9474-BFD2D94A8F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D7D35F0-AE84-41C2-9474-BFD2D94A8F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D7D35F0-AE84-41C2-9474-BFD2D94A8F34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14153494-E168-4B94-8673-A59015091A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14153494-E168-4B94-8673-A59015091A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14153494-E168-4B94-8673-A59015091A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14153494-E168-4B94-8673-A59015091A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44BEC446-650E-4BC0-A137-C63CCDCFF68F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44BEC446-650E-4BC0-A137-C63CCDCFF68F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44BEC446-650E-4BC0-A137-C63CCDCFF68F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44BEC446-650E-4BC0-A137-C63CCDCFF68F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7670F3AC-ABBA-42EE-8B0C-EBFCD2C6FCFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7670F3AC-ABBA-42EE-8B0C-EBFCD2C6FCFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7670F3AC-ABBA-42EE-8B0C-EBFCD2C6FCFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7670F3AC-ABBA-42EE-8B0C-EBFCD2C6FCFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

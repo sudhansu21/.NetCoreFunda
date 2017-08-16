@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  corehubxwebapp:
+    image: corehubxwebapp
+    build:
+      context: ./CoreHubXWebApp
+      dockerfile: Dockerfile
+
+  corewebappbusiness:
+    image: corewebappbusiness
+    build:
+      context: ./CoreWebAppBusiness
+      dockerfile: Dockerfile
